@@ -52,6 +52,7 @@ const App: React.FC = () => {
           <Route path="/services/it-consulting/tech-integration" element={<TechIntegration />} />
           <Route path="/contact-us" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
