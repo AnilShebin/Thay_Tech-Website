@@ -79,7 +79,7 @@ const Career: React.FC = () => {
   };
 
   return (
-    <div className=" ">
+    <div>
       <CareerHeader />
 
       {/* Details Section */}
@@ -138,7 +138,7 @@ const Career: React.FC = () => {
 
       {/* Form Section */}
       <div
-        className="opacity-0 mx-20 max-w-4xl sm:max-w-5xl lg:max-w-6xl shadow-2xl bg-white rounded-lg p-6 sm:p-8 lg:p-12 mt-8"
+        className="opacity-0 mx-20 max-w-auto sm:max-w-auto lg:max-w-auto shadow-xl bg-white rounded-lg p-6 mb-10 sm:p-8 lg:p-12 mt-8"
         ref={(el) => (sectionRefs.current[2] = el)}
       >
         <h4 className="text-blue-600 text-xl lg:text-2xl font-bold mb-4">

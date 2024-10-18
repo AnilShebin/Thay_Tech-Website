@@ -6,7 +6,7 @@ interface NavbarLogoProps {
 
 const NavbarLogo: React.FC<NavbarLogoProps> = ({ className }) => (
   <a href="/" className={`flex items-center space-x-3 rtl:space-x-reverse ${className}`}>
-    <img src="/logo/Thay_Tech-Logo.png" className="h-10" alt="Thay Technologies" />
+    <img src="/logo/Thay_Tech-Logo.png" className="h-12 w-20" alt="Thay Technologies" />
   </a>
 );
 

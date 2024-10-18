@@ -30,15 +30,15 @@ const imageUrls = [
 
 function ClientLogos() {
   return (
-    <div className="ClientLogos mt-8">
+    <div className="ClientLogos my-10 h-3/6">
       <div className="title">
-      <h2 className="text-3xl font-bold text-center text-gray-800">
+      <h2 className="text-4xl font-bold text-center text-gray-800">
         Our Clients
         </h2>
       </div>
 
       <div>
-        <Marquee direction="left" speed={100}>
+        <Marquee className='max-h-6xl mt-6' direction="left" speed={100}>
           {imageUrls.map((url, index) => (
             <div className="image_wrapper" key={index}>
               <img src={url} alt={`Logo ${index + 1}`} />

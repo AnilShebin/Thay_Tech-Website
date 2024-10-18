@@ -1,5 +1,4 @@
-import "./HeaderService.css";
-import "./HomeService.css";
+
 
 function HeaderService(props: any) {
   return (
@@ -7,7 +6,7 @@ function HeaderService(props: any) {
       <div className="bg-breadcrumb-single"></div>
       <div className="container text-center py-8" style={{ maxWidth: "900px" }}>
         <h4
-          className="text-white font-bold text-2xl display-4 mb-4 wow fadeInDown"
+          className="text-white font-bold text-4xl display-4 mb-4 wow fadeInDown"
           data-wow-delay="0.1s"
         >
           {props.name}

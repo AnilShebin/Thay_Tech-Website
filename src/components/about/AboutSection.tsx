@@ -6,7 +6,7 @@ const AboutSection = () => {
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className="font-light sm:text-lg ">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold ">
-           About Us
+           Who we are
           </h2>
           <p className="mb-4">
           At Thay Technology Private Limited, we are dedicated to delivering innovative solutions that drive success. 

@@ -3,8 +3,8 @@
 const CareerHeader = () => {
   return (
     
-    <div className="pt-5 bg-gradient-to-r from-[#e8ecee] to-[#314c5e]">
-      <div className="container px-3 m-2 flex flex-wrap flex-col md:flex-row items-center">
+    <div className="relative pt-16 md:pt-5 bg-gradient-to-r from-[#e8ecee] to-[#314c5e]">
+      <div className=" px-3 m-2 flex flex-wrap flex-col md:flex-row items-center">
         {/* Left Col */}
         <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left animate-fadeInLeft">
           <h1 className="my-4 text-5xl font-bold leading-tight">

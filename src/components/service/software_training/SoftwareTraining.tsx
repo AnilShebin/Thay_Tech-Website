@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
-import "../service_home/HomeService.css";
+
 import HeaderService from "../service_home/HeaderService";
 
 const Training: React.FC = () => {
@@ -42,7 +42,7 @@ const Training: React.FC = () => {
                   </a>
                   <div className="service-content-inner">
                     <p className="mb-4">
-                      Aligning Skills to Drive Organizational Success
+                       Drive Organizational Success
                       
                     </p>
                     <a
@@ -108,8 +108,7 @@ const Training: React.FC = () => {
                     Project-Based Training
                   </a>
                   <p className="mb-4">
-                    Expert IT consulting to streamline your operations and drive
-                    innovation with strategic solutions.
+                  Streamline operations and drive innovation with expert IT consulting.
                   </p>
                   <a
                     className="bg-cyan-400  rounded-full py-2 px-4"

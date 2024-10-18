@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGears } from "@fortawesome/free-solid-svg-icons";
-import "../service_home/HomeService.css";
+
 import HeaderService from "../service_home/HeaderService";
 
 function OutSourcing() {
@@ -41,9 +41,7 @@ function OutSourcing() {
                   </a>
                   <div className="service-content-inner">
                     <p className="mb-4">
-                      Affordable and secure IT infrastructure services to
-                      quickly scale your business with flexible options and
-                      top-notch facilities.
+                    Stay ahead with a resilient, always-available infrastructure.
                     </p>
                     <a
                       className="bg-cyan-400  rounded-full py-2 px-4"
@@ -76,9 +74,7 @@ function OutSourcing() {
                     Staff Outsourcing
                   </a>
                   <p className="mb-4">
-                    Swift, risk-free staff outsourcing and offshoring solutions
-                    with highly qualified IT professionals to enhance your
-                    business performance
+                   swift, risk-free outsourcing and offshoring solutions from top IT professionals.
                   </p>
                   <a
                     className="bg-cyan-400  rounded-full py-2 px-4"

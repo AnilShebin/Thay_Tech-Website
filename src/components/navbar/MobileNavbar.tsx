@@ -84,7 +84,7 @@ const MobileNavbar: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="/about-us"
+                  href="/about"
                   className="flex items-center justify-between py-2 px-3 font-medium text-[#001442] hover:bg-[#E0F7FF] hover:text-[#00D1F9] transition-colors w-full rounded shadow-sm"
                   style={{ boxShadow: "0 1px 3px rgba(0, 0, 0, 0.08)" }}
                 >

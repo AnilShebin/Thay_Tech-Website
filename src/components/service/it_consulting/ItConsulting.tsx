@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faCloud } from "@fortawesome/free-solid-svg-icons";
-import "../service_home/HomeService.css";
+
 import HeaderService from "../service_home/HeaderService";
 
 const ITConsulting: React.FC = () => {
@@ -42,8 +42,7 @@ const ITConsulting: React.FC = () => {
                   </a>
                   <div className="service-content-inner">
                     <p className="mb-4">
-                      Expert cloud application setup and management to boost
-                      your business productivity.
+                    your business productivity with expert cloud application setup and management
                     </p>
                     <a
                       className="bg-cyan-400  rounded-full py-2 px-4"

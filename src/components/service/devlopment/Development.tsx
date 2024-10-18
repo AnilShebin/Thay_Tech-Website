@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
-import "../service_home/HomeService.css";
+
 import SvelteSignals from "./SvelteSignals";
 
 const Development: React.FC = () => {
@@ -17,7 +17,7 @@ const Development: React.FC = () => {
             <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img ">
                 <img
-                  src="/development/software_development/image1.jpg"
+                  src="/development/img3.jpg"
                   className="img-fluid w-full rounded-t-lg"
                   alt="Service 1"
                 />

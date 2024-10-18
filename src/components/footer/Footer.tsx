@@ -1,6 +1,6 @@
 import React from 'react';
 import { LiaGripfire } from "react-icons/lia";
-import { FaFacebook, FaInstagram, FaTwitter, FaGithub, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer: React.FC = React.memo(() => {
     // Utility function to conditionally apply CSS classes
@@ -37,8 +37,8 @@ const Footer: React.FC = React.memo(() => {
                             <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">
                                 <FaGithub className="h-6 w-6" aria-label="GitHub" />
                             </a>
-                            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">
-                                <FaYoutube className="h-6 w-6" aria-label="YouTube" />
+                            <a href="https://www.linkedin.com/company/thaytechnologies" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">
+                                <FaLinkedin  className="h-6 w-6" aria-label="YouTube" />
                             </a>
                         </div>
                     </div>
@@ -49,29 +49,26 @@ const Footer: React.FC = React.memo(() => {
                             <div>
                                 <h3 className="text-gray-800 font-semibold mb-4">Solutions</h3>
                                 <ul className="space-y-2">
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Marketing</a></li>
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Analytics</a></li>
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Commerce</a></li>
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Insights</a></li>
-                                </ul>
+                                    <li><a href="/services" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Service</a></li>
+                                    <li><a href="/technology" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Technology</a></li>
+                                    <li><a href="/clients" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Client</a></li>
+                                   </ul>
                             </div>
                             <div>
                                 <h3 className="text-gray-800 font-semibold mb-4">Support</h3>
                                 <ul className="space-y-2">
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Pricing</a></li>
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Documentation</a></li>
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Guides</a></li>
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">API Status</a></li>
+                                    <li><a href="/clients" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Clients</a></li>
+                                    <li><a href="/technology" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Technology</a></li>
+                                   
                                 </ul>
                             </div>
                             <div>
                                 <h3 className="text-gray-800 font-semibold mb-4">Company</h3>
                                 <ul className="space-y-2">
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a></li>
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Blog</a></li>
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Jobs</a></li>
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Press</a></li>
-                                    <li><a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Partners</a></li>
+                                    <li><a href="/About" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a></li>
+                                    <li><a href="/contact-us" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a></li>
+                                    <li><a href="/career" className="text-gray-600 hover:text-gray-900 transition-colors duration-300">Career</a></li>
+                                   
                                 </ul>
                             </div>
                             <div>

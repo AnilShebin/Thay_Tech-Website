@@ -1,16 +1,18 @@
 import React from 'react';
 import ClientLogos from './ClientLogos'
-import AccordionImage from './AccordionImage'
 import Carousel1 from './Carousel1';
 import HomeContent from './HomeContent';
+import AccordionImage from './AccordionImage';
+import Counter from './Counter';
 
 const HomePage: React.FC = () => {
   return (
     <div className="homepage">
       <Carousel1 />
       <HomeContent/>
-      <ClientLogos />
+      <Counter/>
       <AccordionImage/>
+      <ClientLogos />
     </div>
   );
 };
